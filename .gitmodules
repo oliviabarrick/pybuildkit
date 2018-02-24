@@ -1,0 +1,6 @@
+[submodule "github.com/moby/buildkit"]
+	path = github.com/moby/buildkit
+	url = https://github.com/moby/buildkit.git
+[submodule "github.com/gogo/protobuf"]
+	path = github.com/gogo/protobuf
+	url = https://github.com/gogo/protobuf.git

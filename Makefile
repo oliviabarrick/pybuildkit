@@ -7,3 +7,6 @@ protobuf:
 	mv protobufs/github.com/moby/buildkit/solver/pb/ops_pb2_grpc.py protobufs/github/com/moby/buildkit/solver/pb/
 	mv protobufs/github.com/gogo/protobuf/gogoproto/gogo_pb2_grpc.py protobufs/github/com/gogo/protobuf/gogoproto/
 	rm -rf protobufs/github.com/
+	rm -rf github
+	mv protobufs/github github
+	rm -rf protobufs
